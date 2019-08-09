@@ -1,0 +1,26 @@
+table#products {
+    border-collapse: separate;
+    border-spacing: 1px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 200px;
+    margin-right: 120px;
+    width: 1415px;
+}
+table#products th {
+    width: 155px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+    background: #ce4869 ;
+    font-size: 15px
+}
+table#products td {
+    width: 155px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #eee;
+    font-size: 12px;
+}

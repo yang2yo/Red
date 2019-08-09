@@ -1,0 +1,56 @@
+.btn-3{padding: 15px 0px  ;
+        background:  none;
+        border: 3px solid green;
+        border-radius: 5px;
+        color: green;
+        display:  block;
+        position: relative;
+        margin-left: 200px;
+        margin-right :0px;
+        margin-bottom: 0px;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 30px;
+        height: 70px;
+        width: 150px;
+       
+        
+        font-size: 20px}
+
+
+       
+        .btn-3,
+        .btn-3::after {
+          -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+          -o-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+
+       
+.btn-3::before,
+.btn-3::after {
+          background: black;
+          content: '';
+          position: absolute;
+          z-index: -1;
+      
+        }     
+        .btn-3:hover {
+                color: white;
+                border: 3px solid black;
+        }
+        .btn-3::after {
+                height: 0;
+                left: 50%;
+                top: 50%;
+                width: 0;
+              }
+              
+              .btn-3:hover:after {
+                height: 100%;
+                left: 0;
+                top: 0;
+                width: 100%;
+              }
